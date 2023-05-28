@@ -1,0 +1,41 @@
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.exe.config
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.exe
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.pdb
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\T-Rex.csproj.AssemblyReference.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\T-Rex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.Form1.resources
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.Properties.Resources.resources
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\T-Rex.csproj.GenerateResource.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\T-Rex.csproj.CoreCompileInputs.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.exe
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\Letala.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\Letala.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\Letala.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\T-Rex.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\T-Rex.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\Letala.Form1.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\Letala.Properties.Resources.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\T-Rex.csproj.GenerateResource.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\T-Rex.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\Letala.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\Letala.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Buffers.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Memory.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Text.Json.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.ValueTuple.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Buffers.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Memory.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Text.Json.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\bin\Debug\System.ValueTuple.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\Lestvice\Lestvice\Trex\obj\Debug\T-Rex.csproj.CopyComplete

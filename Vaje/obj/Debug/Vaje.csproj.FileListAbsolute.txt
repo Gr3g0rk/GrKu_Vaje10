@@ -1,0 +1,16 @@
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\bin\Debug\Vaje.exe.config
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\bin\Debug\Vaje.exe
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\bin\Debug\Vaje.pdb
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.AssemblyReference.cache
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.SuggestedBindingRedirects.cache
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.CoreCompileInputs.cache
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\obj\Debug\Vaje.exe
+C:\Users\Payana\Desktop\Faks\LINQ\LINQ\Vaje\obj\Debug\Vaje.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\bin\Debug\Vaje.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\bin\Debug\Vaje.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\bin\Debug\Vaje.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\obj\Debug\Vaje.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\obj\Debug\Vaje.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\LINQ\LINQ\LINQ\Vaje\obj\Debug\Vaje.pdb

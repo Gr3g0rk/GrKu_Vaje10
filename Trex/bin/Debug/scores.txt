@@ -1,0 +1,4 @@
+jernej,11
+sanel,9
+safet,4
+gregor,2

@@ -1,0 +1,11 @@
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.exe.config
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.exe
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\bin\Debug\Letala.pdb
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.csproj.AssemblyReference.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.csproj.SuggestedBindingRedirects.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.Form1.resources
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.Properties.Resources.resources
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.csproj.GenerateResource.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.csproj.CoreCompileInputs.cache
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.exe
+C:\Users\Polona\Desktop\Prak_mat\Prog\Predstavitev\Letala\obj\Debug\Letala.pdb

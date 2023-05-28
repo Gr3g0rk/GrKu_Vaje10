@@ -1,0 +1,11 @@
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\bin\Debug\TrkiDemo.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\bin\Debug\TrkiDemo.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\bin\Debug\TrkiDemo.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.Properties.Resources.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.csproj.GenerateResource.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Predstavitev\TrkiDemo\TrkiDemo\obj\Debug\TrkiDemo.Form1.resources
