@@ -1,0 +1,13 @@
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\Bloom.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\Bloom.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\Bloom.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\BloomFilter.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\BloomFilter.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.csproj.CopyComplete
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\Bloom\obj\Debug\Bloom.pdb

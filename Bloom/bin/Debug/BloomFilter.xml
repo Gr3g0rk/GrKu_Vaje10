@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BloomFilter</name>
+    </assembly>
+    <members>
+        <member name="F:BloomFilter.BloomFilterConstValue.DefaultInMemoryName">
+            <summary>
+            The default name of the in-memory.
+            </summary>
+        </member>
+        <member name="F:BloomFilter.BloomFilterConstValue.DefaultRedisName">
+            <summary>
+            The default name of the redis.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.BloomFilterExtensions">
+            <summary>
+            BloomFilterExtensions
+            </summary>
+        </member>
+        <member name="T:BloomFilter.Configurations.BloomFilterOptions">
+            <summary>
+            BloomFilterOptions
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Configurations.BloomFilterOptions.Extensions">
+            <summary>
+            Gets the extensions.
+            </summary>
+            <value>The extensions.</value>
+        </member>
+        <member name="M:BloomFilter.Configurations.BloomFilterOptions.RegisterExtension(BloomFilter.Configurations.IBloomFilterOptionsExtension)">
+            <summary>
+            Registers the extension.
+            </summary>
+            <param name="extension">Extension.</param>
+        </member>
+        <member name="P:BloomFilter.Configurations.FilterMemoryOptions.Name">
+            <summary>
+            The Name
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Configurations.FilterMemoryOptions.ExpectedElements">
+            <summary>
+            The expected elements
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Configurations.FilterMemoryOptions.ErrorRate">
+            <summary>
+            The error rate
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Configurations.FilterMemoryOptions.Method">
+            <summary>
+            The Hash Method
+            </summary>
+        </member>
+        <member name="M:BloomFilter.Configurations.FilterMemoryOptionsExtension.#ctor(BloomFilter.Configurations.FilterMemoryOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.Configurations.FilterMemoryOptionsExtension"/> class.
+            </summary>
+            <param name="options">Configure.</param>
+        </member>
+        <member name="T:BloomFilter.Configurations.IBloomFilterOptionsExtension">
+            <summary>
+            BloomFilter options extension.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.Configurations.IBloomFilterOptionsExtension.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds the services.
+            </summary>
+            <param name="services">Services.</param>
+        </member>
+        <member name="T:BloomFilter.Filter">
+            <summary>
+            Represents a Bloom filter and provides
+            </summary>
+            <seealso cref="T:BloomFilter.IBloomFilter" />
+        </member>
+        <member name="P:BloomFilter.Filter.Name">
+            <summary>
+            Gets the name specified by BloomFilter.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Filter.Hash">
+            <summary>
+            <see cref="T:BloomFilter.HashFunction"/>
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Filter.Capacity">
+            <summary>
+            the Capacity of the Bloom filter
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Filter.Hashes">
+            <summary>
+            number of hash functions
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Filter.ExpectedElements">
+            <summary>
+             the expected elements.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.Filter.ErrorRate">
+            <summary>
+            the number of expected elements
+            </summary>
+        </member>
+        <member name="M:BloomFilter.Filter.#ctor(System.String,System.Int32,System.Double,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.Filter"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            expectedElements - expectedElements must be > 0
+            or
+            errorRate
+            </exception>
+            <exception cref="T:System.ArgumentNullException">hashFunction</exception>
+        </member>
+        <member name="M:BloomFilter.Filter.#ctor(System.String,System.Int32,System.Int32,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.Filter`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="capacity">The capacity.</param>
+            <param name="hashes">The hashes.</param>
+            <param name="hashFunction">The hash function.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            capacity - capacity must be > 0
+            or
+            hashes - hashes must be > 0
+            </exception>
+            <exception cref="T:System.ArgumentNullException">hashFunction</exception>
+        </member>
+        <member name="M:BloomFilter.Filter.Add(System.Byte[])">
+            <summary>
+            Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.AddAsync(System.Byte[])">
+            <summary>
+            Async Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.Add(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.AddAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.Clear">
+            <summary>
+            Removes all elements from the filter
+            </summary>
+        </member>
+        <member name="M:BloomFilter.Filter.ClearAsync">
+            <summary>
+            Async Removes all elements from the filter
+            </summary>
+        </member>
+        <member name="M:BloomFilter.Filter.Contains(System.Byte[])">
+            <summary>
+            Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.ContainsAsync(System.Byte[])">
+            <summary>
+            Async Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.Contains(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.ContainsAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.All(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.AllAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.ComputeHash(System.Byte[])">
+            <summary>
+             Hashes the specified value.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter.BestM(System.Int64,System.Double)">
+            <summary>
+            Calculates the optimal size of the bloom filter in bits given expectedElements (expected
+            number of elements in bloom filter) and falsePositiveProbability (tolerable false positive rate).
+            </summary>
+            <param name="n">Expected number of elements inserted in the bloom filter</param>
+            <param name="p">Tolerable false positive rate</param>
+            <returns>the optimal siz of the bloom filter in bits</returns>
+        </member>
+        <member name="M:BloomFilter.Filter.BestK(System.Int64,System.Int64)">
+            <summary>
+            Calculates the optimal hashes (number of hash function) given expectedElements (expected number of
+            elements in bloom filter) and size (size of bloom filter in bits).
+            </summary>
+            <param name="n">Expected number of elements inserted in the bloom filter</param>
+            <param name="m">The size of the bloom filter in bits.</param>
+            <returns>the optimal amount of hash functions hashes</returns>
+        </member>
+        <member name="M:BloomFilter.Filter.BestN(System.Int64,System.Int64)">
+            <summary>
+            Calculates the amount of elements a Bloom filter for which the given configuration of size and hashes is optimal.
+            </summary>
+            <param name="k">number of hashes</param>
+            <param name="m">The size of the bloom filter in bits.</param>
+            <returns>mount of elements a Bloom filter for which the given configuration of size and hashes is optimal</returns>
+        </member>
+        <member name="M:BloomFilter.Filter.BestP(System.Int64,System.Int64,System.Double)">
+            <summary>
+            Calculates the best-case (uniform hash function) false positive probability.
+            </summary>
+            <param name="k"> number of hashes</param>
+            <param name="m">The size of the bloom filter in bits.</param>
+            <param name="insertedElements">number of elements inserted in the filter</param>
+            <returns>The calculated false positive probability</returns>
+        </member>
+        <member name="M:BloomFilter.Filter.Dispose">
+            <summary>
+            Dispose
+            </summary>
+        </member>
+        <member name="T:BloomFilter.Filter`1">
+            <summary>
+            Represents a Bloom filter and provides
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:BloomFilter.Filter" />
+        </member>
+        <member name="M:BloomFilter.Filter`1.#ctor(System.String,System.Int32,System.Double,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.Filter`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            expectedElements - expectedElements must be > 0
+            or
+            errorRate
+            </exception>
+            <exception cref="T:System.ArgumentNullException">hashFunction</exception>
+        </member>
+        <member name="M:BloomFilter.Filter`1.#ctor(System.String,System.Int32,System.Int32,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.Filter`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="capacity">The capacity.</param>
+            <param name="hashes">The hashes.</param>
+            <param name="hashFunction">The hash function.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            capacity - capacity must be > 0
+            or
+            hashes - hashes must be > 0
+            </exception>
+            <exception cref="T:System.ArgumentNullException">hashFunction</exception>
+        </member>
+        <member name="M:BloomFilter.Filter`1.Add(`0)">
+            <summary>
+            Adds the specified element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.AddAsync(`0)">
+            <summary>
+            Async Adds the specified element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.AddAsync(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Async Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.Contains(`0)">
+            <summary>
+            Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.ContainsAsync(`0)">
+            <summary>
+            Async Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.Contains(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.ContainsAsync(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Async Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.All(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.AllAsync(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Async Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.Filter`1.ToBytes(`0)">
+            <summary>
+            Converts the element to UTF8 bytes
+            </summary>
+            <param name="element">The element.</param>
+            <returns></returns>
+        </member>
+        <member name="T:BloomFilter.FilterBuilder">
+            <summary>
+            BloomFilter Builder
+            </summary>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,BloomFilter.HashMethod,System.String)">
+             <summary>
+            Creates a BloomFilter for the specified expected element
+             </summary>
+             <param name="expectedElements">The expected elements.</param>
+             <param name="hashMethod">The hash method.</param>
+             <param name="name"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,BloomFilter.HashFunction,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="hashFunction">The hash function.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,System.Double,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,System.Double,BloomFilter.HashMethod,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashMethod">The hash method.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build(System.Int32,System.Double,BloomFilter.HashFunction,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,BloomFilter.HashMethod,System.String)">
+             <summary>
+            Creates a BloomFilter for the specified expected element
+             </summary>
+             <typeparam name="T"></typeparam>
+             <param name="expectedElements">The expected elements.</param>
+             <param name="hashMethod">The hash method.</param>
+             <param name="name"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,BloomFilter.HashFunction,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="hashFunction">The hash function.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,System.Double,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,System.Double,BloomFilter.HashMethod,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashMethod">The hash method.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterBuilder.Build``1(System.Int32,System.Double,BloomFilter.HashFunction,System.String)">
+            <summary>
+            Creates a BloomFilter for the specified expected element
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BloomFilter.FilterMemory">
+            <summary>
+            Bloom Filter In Mempory Implement
+            </summary>
+            <seealso cref="T:BloomFilter.Filter" />
+        </member>
+        <member name="M:BloomFilter.FilterMemory.#ctor(System.String,System.Int32,System.Double,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.FilterMemory`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+        </member>
+        <member name="M:BloomFilter.FilterMemory.#ctor(System.String,System.Int32,System.Int32,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.FilterMemory`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="size">The size.</param>
+            <param name="hashes">The hashes.</param>
+            <param name="hashFunction">The hash function.</param>
+        </member>
+        <member name="T:BloomFilter.FilterMemory`1">
+            <summary>
+            Bloom Filter In Mempory Implement
+            </summary>
+            <typeparam name="T"></typeparam>
+            <seealso cref="T:BloomFilter.Filter`1" />
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.#ctor(System.String,System.Int32,System.Double,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.FilterMemory`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="expectedElements">The expected elements.</param>
+            <param name="errorRate">The error rate.</param>
+            <param name="hashFunction">The hash function.</param>
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.#ctor(System.String,System.Int32,System.Int32,BloomFilter.HashFunction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.FilterMemory`1"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="size">The size.</param>
+            <param name="hashes">The hashes.</param>
+            <param name="hashFunction">The hash function.</param>
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.Add(System.Byte[])">
+            <summary>
+            Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.AddAsync(System.Byte[])">
+            <summary>
+            Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.Contains(System.Byte[])">
+            <summary>
+            Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.FilterMemory`1.Clear">
+            <summary>
+            Removes all elements from the filter
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.IChecksum">
+            <summary>
+            Interface to compute a data checksum used by checked input/output streams.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.IChecksum.Reset">
+            <summary>
+            Resets the data checksum as if no update was ever called.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.HashAlgorithms.IChecksum.Value">
+            <summary>
+            Returns the data checksum computed so far.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.IChecksum.Update(System.Int32)">
+            <summary>
+            Adds one byte to the data checksum.
+            </summary>
+            <param name="b">the data value to add. The high byte of the int is ignored.</param>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.IChecksum.Update(System.Byte[])">
+            <summary>
+            Updates the data checksum with the bytes taken from the array.
+            </summary>
+            <param name="buffer">buffer an array of bytes</param>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.IChecksum.Update(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Adds the byte array to the data checksum.
+            </summary>
+            <param name="buffer">The buffer which contains the data</param>
+            <param name="offset">The offset in the buffer where the data starts</param>
+            <param name="count">the number of data bytes to add.</param>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.Checksum.Adler32">
+            <summary>
+            Computes Adler32 checksum for a stream of data
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Adler32.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.HashAlgorithms.Checksum.Adler32"/> class.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.HashAlgorithms.Checksum.Adler32.Value">
+            <summary>
+            Returns the data checksum computed so far.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Adler32.Reset">
+            <summary>
+            Resets the data checksum as if no update was ever called.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Adler32.Update(System.Int32)">
+            <summary>
+            Adds one byte to the data checksum.
+            </summary>
+            <param name="b">the data value to add. The high byte of the int is ignored.</param>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Adler32.Update(System.Byte[])">
+            <summary>
+            Updates the data checksum with the bytes taken from the array.
+            </summary>
+            <param name="buffer">buffer an array of bytes</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Adler32.Update(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Adds the byte array to the data checksum.
+            </summary>
+            <param name="buffer">The buffer which contains the data</param>
+            <param name="offset">The offset in the buffer where the data starts</param>
+            <param name="count">the number of data bytes to add.</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            offset - cannot be less than zero
+            or
+            offset - not a valid index into buffer
+            or
+            count - cannot be less than zero
+            or
+            count - exceeds buffer size
+            </exception>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.Checksum.Crc32">
+            <summary>
+            CRC-32 with reversed data and unreversed output
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.HashAlgorithms.Checksum.Crc32"/> class.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.HashAlgorithms.Checksum.Crc32.Value">
+            <summary>
+            Returns the data checksum computed so far.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32.Reset">
+            <summary>
+            Resets the data checksum as if no update was ever called.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32.Update(System.Int32)">
+            <summary>
+            Adds one byte to the data checksum.
+            </summary>
+            <param name="b">the data value to add. The high byte of the int is ignored.</param>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32.Update(System.Byte[])">
+            <summary>
+            Updates the data checksum with the bytes taken from the array.
+            </summary>
+            <param name="buffer">buffer an array of bytes</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32.Update(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Adds the byte array to the data checksum.
+            </summary>
+            <param name="buffer">The buffer which contains the data</param>
+            <param name="offset">The offset in the buffer where the data starts</param>
+            <param name="count">the number of data bytes to add.</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">offset - cannot be less than zero
+            or
+            offset - not a valid index into buffer
+            or
+            count - cannot be less than zero
+            or
+            count - exceeds buffer size</exception>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.Checksum.Crc32u">
+            <summary>
+            CRC-32 with unreversed data and reversed output
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32u.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BloomFilter.HashAlgorithms.Checksum.Crc32u"/> class.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32u.Reset">
+            <summary>
+            Resets the data checksum as if no update was ever called.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32u.Update(System.Int32)">
+            <summary>
+            Adds one byte to the data checksum.
+            </summary>
+            <param name="b">the data value to add. The high byte of the int is ignored.</param>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32u.Update(System.Byte[])">
+            <summary>
+            Updates the data checksum with the bytes taken from the array.
+            </summary>
+            <param name="buffer">buffer an array of bytes</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+        </member>
+        <member name="M:BloomFilter.HashAlgorithms.Checksum.Crc32u.Update(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Adds the byte array to the data checksum.
+            </summary>
+            <param name="buffer">The buffer which contains the data</param>
+            <param name="offset">The offset in the buffer where the data starts</param>
+            <param name="count">the number of data bytes to add.</param>
+            <exception cref="T:System.ArgumentNullException">buffer</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            offset - cannot be less than zero
+            or
+            offset - not a valid index into buffer
+            or
+            count - cannot be less than zero
+            or
+            count - exceeds buffer size
+            </exception>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.LCGWithFNV1a">
+            <summary>
+            Implements an Linear Congruential Generator With  FNV1a hash algorithm.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.LCGModifiedFNV1">
+            <summary>
+            Implements an Linear Congruential Generator With  modified FNV hash. Provides better distribution than FNV1 but it's only 32 bit long.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.LCGWithFNV">
+            <summary>
+            Implements an Linear Congruential Generator With FNV1 hash algorithm.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.Murmur3KirschMitzenmacher">
+            <summary>
+            Building a Better Bloom Filter" by Adam Kirsch and Michael Mitzenmacher,
+            https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.RNGWithFNV1a">
+            <summary>
+            Implements an Random With FNV1a hash algorithm.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.RNGModifiedFNV1">
+            <summary>
+            Implements an Random With modified FNV hash. Provides better distribution than FNV1 but it's only 32 bit long.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashAlgorithms.RNGWithFNV1">
+            <summary>
+            Implements an Random With FNV1 hash algorithm.
+            </summary>
+        </member>
+        <member name="T:BloomFilter.HashFunction">
+            <summary>
+            An implemented to provide custom hash functions.
+            </summary>
+        </member>
+        <member name="F:BloomFilter.HashFunction.Functions">
+            <summary>
+            The hash functions
+            </summary>
+        </member>
+        <member name="M:BloomFilter.HashFunction.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Hashes the specified value.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="m">integer output range.</param>
+            <param name="k">number of hashes to be computed.</param>
+            <returns>
+            int array of hashes hash values
+            </returns>
+        </member>
+        <member name="M:BloomFilter.HashFunction.Rejection(System.UInt32,System.Int32)">
+             <summary>
+             Perform rejection sampling on a 32-bit,
+            https://en.wikipedia.org/wiki/Rejection_sampling
+             </summary>
+             <param name="random">The random.</param>
+             <param name="m">integer output range.</param>
+             <returns></returns>
+        </member>
+        <member name="M:BloomFilter.HashFunction.Rejection(System.Int32,System.Int32)">
+            <summary>
+            Perform rejection sampling on a 32-bit,
+            https://en.wikipedia.org/wiki/Rejection_sampling
+            </summary>
+            <param name="random">The random.</param>
+            <param name="m">integer output range.</param>
+            <returns></returns>
+        </member>
+        <member name="T:BloomFilter.HashMethod">
+            <summary>
+            Hash Methods
+            </summary>
+        </member>
+        <member name="T:BloomFilter.IBloomFilter">
+            <summary>
+            Represents a Bloom filter.
+            </summary>
+        </member>
+        <member name="P:BloomFilter.IBloomFilter.Name">
+            <summary>
+            Gets the name specified by BloomFilter.
+            </summary>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.Add(System.Byte[])">
+            <summary>
+            Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.AddAsync(System.Byte[])">
+            <summary>
+            Async Adds the passed value to the filter.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.Add(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.AddAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Adds the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.Contains(System.Byte[])">
+            <summary>
+            Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.ContainsAsync(System.Byte[])">
+            <summary>
+            Async Tests whether an element is present in the filter
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.Contains(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.ContainsAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Tests whether an elements is present in the filter
+            </summary>
+            <param name="elements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.All(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.AllAsync(System.Collections.Generic.IEnumerable{System.Byte[]})">
+            <summary>
+            Async Alls the specified elements.
+            </summary>
+            <param name="elements">The elements.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.Clear">
+            <summary>
+            Removes all elements from the filter
+            </summary>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.ClearAsync">
+            <summary>
+            Async Removes all elements from the filter
+            </summary>
+        </member>
+        <member name="M:BloomFilter.IBloomFilter.ComputeHash(System.Byte[])">
+            <summary>
+             Hashes the specified value.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BloomFilter.IBloomFilterFactory">
+            <summary>
+            BloomFilter Factory
+            </summary>
+        </member>
+        <member name="M:BloomFilter.IBloomFilterFactory.Get(System.String)">
+            <summary>
+            Gets the <see cref="T:BloomFilter.IBloomFilter"/>
+            </summary>
+            <returns>The bloomFilter.</returns>
+            <param name="name">Name.</param>
+        </member>
+        <member name="M:BloomFilter.IBloomFilterFactory.TryGet(System.String,BloomFilter.IBloomFilter@)">
+            <summary>
+            Try Gets the<see cref="T:BloomFilter.IBloomFilter"/>
+            </summary>
+            <param name="name">Name.</param>
+            <param name="bloomFilter">The bloomFilter</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddBloomFilter(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{BloomFilter.Configurations.BloomFilterOptions})">
+            <summary>
+            Adds the BloomFilter.
+            </summary>
+            <param name="services">Services.</param>
+            <param name="setupAction">Setup action.</param>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.UseInMemory(BloomFilter.Configurations.BloomFilterOptions,System.String,System.Action{BloomFilter.Configurations.FilterMemoryOptions})">
+            <summary>
+            Uses the in-memory.
+            </summary>
+            <param name="options">Options.</param>
+            <param name="name"></param>
+            <param name="setupActions"></param>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.UseInMemory(BloomFilter.Configurations.BloomFilterOptions,BloomFilter.Configurations.FilterMemoryOptions)">
+            <summary>
+            Uses the in-memory.
+            </summary>
+            <param name="options">Options.</param>
+            <param name="filterMemoryOptions"></param>
+        </member>
+    </members>
+</doc>

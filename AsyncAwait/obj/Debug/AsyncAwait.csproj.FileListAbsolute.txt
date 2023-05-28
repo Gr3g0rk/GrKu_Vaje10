@@ -1,0 +1,8 @@
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\bin\Debug\AsyncAwait.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\bin\Debug\AsyncAwait.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\bin\Debug\AsyncAwait.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\obj\Debug\AsyncAwait.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\obj\Debug\AsyncAwait.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\obj\Debug\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\obj\Debug\AsyncAwait.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje10\GrKu_Vaje10\AsyncAwait\obj\Debug\AsyncAwait.pdb
