@@ -1,0 +1,80 @@
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\Nobel.exe.config
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\Nobel.exe
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\Nobel.pdb
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\EntityFramework.dll
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\System.Data.SQLite.dll
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\EntityFramework.xml
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\bin\Debug\System.Data.SQLite.xml
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.csproj.SuggestedBindingRedirects.cache
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.Okno.resources
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.Properties.Resources.resources
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.csproj.GenerateResource.cache
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.csproj.CopyComplete
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.exe
+C:\Users\jrenc\OneDrive\Namizje\FMF\FMF3\PRO3\Vaje9\Vaje9\Nobel\obj\Debug\Nobel.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\Nobel.exe.config
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\Nobel.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\Nobel.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\EntityFramework.dll
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.dll
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\EntityFramework.xml
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.xml
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.Okno.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.Properties.Resources.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.GenerateResource.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.CopyComplete
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\Nobel\obj\Debug\Nobel.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\Nobel.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\Nobel.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\Nobel.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\EntityFramework.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\EntityFramework.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\bin\Debug\System.Data.SQLite.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.Okno.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.Properties.Resources.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.GenerateResource.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.csproj.CopyComplete
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Vaje_11_4\Vaje_11_4\Nobel\obj\Debug\Nobel.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\Nobel.exe.config
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\Nobel.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\Nobel.pdb
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\EntityFramework.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\System.Data.SQLite.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\EntityFramework.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\bin\Debug\System.Data.SQLite.xml
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.Okno.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.Properties.Resources.resources
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.csproj.GenerateResource.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.csproj.CopyComplete
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.exe
+C:\Users\grego\Desktop\FAKS\3.letnik\Programiranje 3\Vaje9\Narisi\Nobel\obj\Debug\Nobel.pdb
